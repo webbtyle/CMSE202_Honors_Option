@@ -44,7 +44,9 @@ predict_salary(3.5, 2.06, 4.015, Millions_Salary_Model, rmse)
 
 Example Output \
 Predicted Salary: 5.518 (In Millions $)
-Salary Range: 4.318 - 6.718 
+
+
+Salary Range: 4.318 - 6.718 (In Millions $)
 
 
 
