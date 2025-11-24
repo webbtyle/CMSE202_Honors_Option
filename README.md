@@ -12,7 +12,7 @@ Years of Service (YOS)
 Ensure all values used in the model are numeric (float or int).
 Convert all salary values to a millions scale:
 
-model_FS['PrevSalary_mil'] = model_FS['PrevSalary_updated'] / 1e6
+model_FS['PrevSalary_mil'] = model_FS['PrevSalary_updated'] / 1e6 \
 model_FS['FinalSalary_mil'] = model_FS['FinalSalary_Updated'] / 1e6
 
 2. Train_Test_Split the data using an 80/20 ratio and fit to an OLS regression model.
